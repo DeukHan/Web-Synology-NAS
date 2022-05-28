@@ -1,7 +1,7 @@
-### Web-Synology-NAS
+# Web-Synology-NAS
 Synology NAS Docker에서 구동되는 repository입니다.
 
-# Synology Docker Code-Server에서 nodeJS, npm module 설치하기
+### Synology Docker Code-Server에서 nodeJS, npm module 설치하기
   1. Docker에서 Code-Server를 구동한다.
   
   2. Code-Server 설정의 터미널로 이동한다.
@@ -11,17 +11,16 @@ Synology NAS Docker에서 구동되는 repository입니다.
   
   4. sudo apt-get update를 입력한다.
   
-  5. sudo apt-get install nodejs를 입력한다.
+  5. 다음 명령어를 통해 설치하 nodejs의 버전을 선택한다. (curl -sL https://deb.nodesource.com/setup_14.x | sudo -E bash -)
+  6. sudo apt-get install nodejs를 입력한다.
 
-아래 명령어롣 가능하다. 14의 의미는 14버전대를 다운 받는 것 이다.)
-(curl -sL https://deb.nodesource.com/setup_14.x | sudo -E bash -)
   
-  6. sudo apt-get install npm을 입력한다.
+  7. sudo apt-get install npm을 입력한다.
   
-  7. nodejs -v를 통해 버전을 확인한다.
+  8. nodejs -v를 통해 버전을 확인한다.
   
-  8. npm -v를 통해 버전을 확인한다.
+  9. npm -v를 통해 버전을 확인한다.
   <img width="1440" alt="image" src="https://user-images.githubusercontent.com/104338516/169701939-55c562d4-074e-4921-b4cf-f6378a59f168.png">
   
-  9. code-server의 VSCode에서 npm init 정상 작동 확인
+  10. code-server의 VSCode에서 npm init 정상 작동 확인
   <img width="1440" alt="image" src="https://user-images.githubusercontent.com/104338516/169702124-59076630-fe14-4b20-b094-dc01964aec9a.png">
