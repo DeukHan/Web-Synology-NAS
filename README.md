@@ -12,6 +12,8 @@ Synology NAS Docker에서 구동되는 repository입니다.
   4. sudo apt-get update를 입력한다.
   
   5. sudo apt-get install nodejs를 입력한다.
+  아래 명령어롣 가능하다. 14의 의미는 14버전대를 다운 받는 것 이다.)
+  (curl -sL https://deb.nodesource.com/setup_14.x | sudo -E bash -)
   
   6. sudo apt-get install npm을 입력한다.
   
